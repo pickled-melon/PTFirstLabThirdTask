@@ -19,7 +19,7 @@
                     currentNumber = 0;
                     currentSign = c;
                 }
-                else
+                else if (c >= '0' && c <= '9')
                 {
                     currentNumber = currentNumber * 10 + (c - '0');
                 }
