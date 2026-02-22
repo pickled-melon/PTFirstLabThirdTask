@@ -2,7 +2,7 @@
 {
     class Logic
     {
-        public static int GetExpressionResult(string inputText)
+        public static int GetSumOfNumbersInText(string inputText)
         {
             int currentNumber = 0;
             char currentSign = '+';
@@ -40,7 +40,7 @@
 
             string inputText = Console.ReadLine();
 
-            int textNumbersSum = Logic.GetExpressionResult(inputText);
+            int textNumbersSum = Logic.GetSumOfNumbersInText(inputText);
 
             Console.WriteLine($"Вычисленная сумма равна {textNumbersSum}");
         }
