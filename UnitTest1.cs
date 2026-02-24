@@ -16,7 +16,7 @@ namespace PTFirstLabThirdTask
         [TestCase("-1+-+20", ExpectedResult = 19)]
         [TestCase("23", ExpectedResult = 23)]
         [TestCase("12+23+fwefe-ffeef+89", ExpectedResult = 124)]
-        public int TestMethod_GetSumOfNumbersInText(string inputText) 
+        public int GetSumOfNumbersInText(string inputText) 
         {
             return Logic.GetSumOfNumbersInText(inputText);
         }
